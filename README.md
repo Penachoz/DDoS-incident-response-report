@@ -7,7 +7,6 @@ This repository contains an in-depth incident response report based on a simulat
 - Protection measures
 - Detection and response strategies
 - Recovery plan
-- Reflections and lessons learned
 
 ## Files
 
