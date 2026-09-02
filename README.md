@@ -1,22 +1,18 @@
-# DDoS Incident Response Report
+# DDoS incident response (NIST CSF)
 
-This repository contains an in-depth incident response report based on a simulated Distributed Denial of Service (DDoS) attack. The report is structured using the NIST Cybersecurity Framework (CSF) and includes:
+Simulated Distributed Denial of Service against a web service. The report follows the **NIST Cybersecurity Framework**: identify, protect, detect, respond, recover.
 
-- A summary of the incident
-- Identification of vulnerabilities
-- Protection measures
-- Detection and response strategies
-- Recovery plan
+This is an **operations** artifact: how the service fails under flood, what you log, how you contain, how you come back. It is not a pentest write-up.
 
-## Files
+## Contents
 
-- `INCIDENT_REPORT.md`: Markdown version of the full incident report
-- `report/DDoS_Incident_Report.pdf`: Polished version for portfolio purposes
+- `INCIDENT_REPORT.md` — full report
+- `report/DDoS_Incident_Report.pdf` — portfolio PDF
 
-## Topics Covered
+## Topics
 
-- Network hardening
-- Firewall misconfiguration
-- ICMP flood attacks
-- IDS/IPS implementation
-- Incident response planning
+Network hardening · firewall misconfig · ICMP flood · IDS/IPS · incident response planning · availability
+
+## How to read it as infra/DevOps
+
+Look for: blast radius, detection signals, rollback/recovery, and what you would automate the second time (rate limits, health checks, runbook).
